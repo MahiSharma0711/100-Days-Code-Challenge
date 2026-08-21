@@ -1,7 +1,9 @@
 #include <stdio.h>
+
 int main()
 {
     char ch;
+
     printf("Enter an alphabet: ");
     scanf(" %c", &ch);
 
@@ -14,6 +16,15 @@ int main()
     {
         printf("%c is a consonant.\n", ch);
     }
+
+    return 0;
+}
+
+
+
+
+
+
 
     return 0;
 }
